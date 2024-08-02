@@ -8,6 +8,12 @@
 body {
     background-color: #f0f0f0;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 .hero-content h3 {
     font-family: 'Advent Pro', sans-serif;
     font-weight: 100;
@@ -97,6 +103,256 @@ body {
     margin: 0 10px; 
     height: 30px; 
 }
+    #It-berries {
+        display: flex;
+        background-image: url(../img/Group18.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding:  20px;
+        text-align: left;
+        /* background-size: cover; */
+        
+    }
+   
+.header-text p {
+    color: white;
+    line-height: 138.7%;
+    letter-spacing: 0%;
+    margin: 0;
+    padding: 10px;
+}
+
+.header-text h1 {
+    letter-spacing: 18.54%;
+    line-height: auto;
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+}
+.read-more-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.read-more-container .line {
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin: 0 10px;
+}
+.read-more-container p {
+    margin: 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+
+.explore-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.explore-container .line {
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.explore-container p {
+    margin: 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+
+.explore-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.explore-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#About_Me {
+    background: radial-gradient(circle, #B8C4C2, #e0e0e0);
+    padding: 50px;
+    color: black;
+    margin: 0;
+    border-top: 1px solid transparent;
+}
+
+.about-me-header {
+    text-align: center;
+    margin: 0;
+}
+
+.about-header {
+    display: inline-block;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 0 0 30px 0;
+    
+    
+}
+.js, .html5, .sass, .css p {
+    text-align: center;
+}
+
+.react, .figma, .bootstrap, .git p {
+    text-align: center;
+}
+
+.text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0 100px 0 ;
+}
+.exp-img{
+    margin: 50px 0 50px 0;
+}
+
+.design-grid, .development-grid, .maintenance-grid {
+    flex: 1 1 48%; 
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    
+  
+}
+.design-grid{
+    background-image: url(../img/pen.svg);
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+.development-grid{
+    background-image: url(../img/tool.svg);
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+
+.maintenance-grid{
+    background-image: url(../img/cog.svg);
+    background-repeat: no-repeat;
+    background-position:40%; 
+}
+
+.maintenance-grid {
+    flex: 1 1 100%; 
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skills-svg {
+    width: 100%;
+    max-width: 300px; 
+    height: 50vh; 
+}
+
+.skills-svg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 8px solid black;
+
+}
+
+.skills-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgs-a, .imgs-b {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.imgs-a > div, .imgs-b > div {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box; 
+}
+
+
+.imgs-a img, .imgs-b img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+.container-2{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        
+}
+.learning-grid {
+    padding: 20px;
+    margin: 50px 0 50px 0;
+}
+
+.learning-grid-imgs {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.learning-grid-imgs .nodejs, .mysql, .mongodb, .ts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box; 
+}
+
+.learning-grid-imgs .figma img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}    
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -127,4 +383,95 @@ body {
     .navbar .nav-links li {
         margin: 10px 0;
     }
+    #It-berries {
+        background-image: url(../img/Group2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 50px;
+    }
+    .read-more-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+        width: 100%; 
+    }
+    .header-text h1{
+        text-align: center;
+    }
+    .header-text p {
+        text-align: center;
+    }
+    explore-container {
+        flex-direction: column; /* Stack items vertically */
+        margin-top: 15px; /* Adjust top margin for smaller screens */
+        margin-bottom: 15px; /* Adjust bottom margin for smaller screens */
+    }
+
+    .explore-container .line {
+        height: 1px; /* Adjust line height */
+        width: 30px; /* Adjust line width */
+        margin: 10px 0; /* Adjust margins around the line */
+    }
+
+    .explore-container p {
+        font-size: 1em; /* Adjust font size */
+        margin: 10px 0; /* Adjust margins around the text */
+    }
+
+    .explore-img {
+        height: auto; /* Allow image height to adjust automatically */
+        margin: 50px;
+       
+    }
+
+    #About_Me {
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+
+    .about-header {
+        border-width: 2px; 
+        padding: 15px; 
+    }
+    .design-grid, .development-grid {
+        flex: 1 1 100%;
+    }
+
+    .imgs-a, .imgs-b {
+        flex-direction: column;
+    }
+    .development-grid{
+        background-image: url(../img/tool.svg);
+        background-repeat: no-repeat;
+       background-position: 20px;
+    }
+    .maintenance-grid{
+        background-image: url(../img/cog.svg);
+        background-repeat: no-repeat;
+        background-position:20px; 
+    }
+    .design-grid{
+        background-image: url(../img/pen.svg);
+        background-repeat: no-repeat;
+        background-position: 20px;
+    }
+    .skills-svg{
+         height: 30vh; 
+    }
+    .learning-grid-imgs {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .learning-grid-imgs .figma {
+        width: auto; /* Adjust width for smaller screens */
+        margin-bottom: 20px; /* Add spacing between items */
+    }
+
+
 }
+
+
