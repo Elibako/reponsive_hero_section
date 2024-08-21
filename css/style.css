@@ -629,7 +629,7 @@ body {
     .header-text p {
         text-align: center;
     }
-    explore-container {
+    .explore-container {
         flex-direction: column; 
         margin-top: 15px; 
         margin-bottom: 15px; 
